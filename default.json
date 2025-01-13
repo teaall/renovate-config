@@ -1,0 +1,10 @@
+{
+  "description": "Renovate Default Config for all assigned Repositories",
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends":["config:recommended"],
+  "automergeType": "branch",
+  "rebaseWhen": "behind-base-branch",
+  "git-submodules": {
+    "enabled": false
+  }
+}
