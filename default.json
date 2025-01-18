@@ -4,6 +4,7 @@
   "extends":["config:recommended"],
   "automergeType": "branch",
   "rebaseWhen": "behind-base-branch",
+  "dependencyDashboard": false,
   "git-submodules": {
     "enabled": false
   }
